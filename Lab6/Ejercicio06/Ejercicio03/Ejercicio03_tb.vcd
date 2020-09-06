@@ -1,0 +1,150 @@
+$date
+	Sat Sep 05 21:15:14 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 3 ! out [2:0] $end
+$var reg 1 " Direccion $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$scope module E3 $end
+$var wire 1 " Direccion $end
+$var wire 1 # clk $end
+$var wire 1 % n1 $end
+$var wire 1 & n10 $end
+$var wire 1 ' n2 $end
+$var wire 1 ( n3 $end
+$var wire 1 ) n4 $end
+$var wire 1 * n5 $end
+$var wire 1 + n6 $end
+$var wire 1 , n7 $end
+$var wire 1 - n8 $end
+$var wire 1 . n9 $end
+$var wire 1 $ reset $end
+$var wire 3 / salida [2:0] $end
+$var wire 3 0 estado_siguiente [2:0] $end
+$var reg 3 1 estado_actual [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#10
+$dumpvars
+b100 1
+b101 0
+b100 /
+0.
+1-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+1%
+0$
+1#
+0"
+b100 !
+$end
+#12
+0#
+#14
+b111 0
+0%
+1*
+1(
+b101 !
+b101 /
+b101 1
+1#
+#16
+0#
+#18
+b110 0
+0-
+b111 !
+b111 /
+b111 1
+1#
+#20
+0#
+#22
+b10 0
+0*
+1+
+0(
+b110 !
+b110 /
+b110 1
+1#
+#24
+0#
+#26
+b11 0
+1.
+b10 !
+b10 /
+b10 1
+1#
+#28
+0#
+#30
+b1 0
+0+
+b11 !
+b11 /
+b11 1
+1#
+#32
+0#
+#34
+b0 0
+0.
+b1 !
+b1 /
+b1 1
+1#
+#36
+0#
+#38
+b100 0
+1%
+b0 !
+b0 /
+b0 1
+1#
+#40
+0#
+#42
+b101 0
+1-
+b100 !
+b100 /
+b100 1
+1#
+#44
+0#
+#46
+b111 0
+0%
+1*
+1(
+b101 !
+b101 /
+b101 1
+1#
+#48
+0#
+#50
+b110 0
+0-
+b111 !
+b111 /
+b111 1
+1#
