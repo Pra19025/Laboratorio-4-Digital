@@ -1,0 +1,433 @@
+$date
+	Sat Nov 07 11:55:36 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 4 ! salida_buffer2C [3:0] $end
+$var reg 1 " clk $end
+$var reg 3 # control_ALU [2:0] $end
+$var reg 1 $ enableAccu $end
+$var reg 1 % enableBus1 $end
+$var reg 1 & enableBus2 $end
+$var reg 4 ' entrada_buffer1C [3:0] $end
+$var reg 1 ( rst $end
+$scope module C1 $end
+$var wire 1 " clk $end
+$var wire 3 ) control_ALU [2:0] $end
+$var wire 1 $ enableAccu $end
+$var wire 1 % enableBus1 $end
+$var wire 1 & enableBus2 $end
+$var wire 4 * entrada_buffer1C [3:0] $end
+$var wire 1 ( rst $end
+$var wire 2 + zero_carryC [1:0] $end
+$var wire 4 , salida_ALUC [3:0] $end
+$var wire 4 - salidaBus2 [3:0] $end
+$var wire 4 . data_busC [3:0] $end
+$var wire 4 / accuC [3:0] $end
+$scope module ACCU1 $end
+$var wire 1 " clk $end
+$var wire 1 $ enabled $end
+$var wire 1 ( rst $end
+$var wire 4 0 Y [3:0] $end
+$var reg 4 1 accu [3:0] $end
+$upscope $end
+$scope module ALU1 $end
+$var wire 4 2 A [3:0] $end
+$var wire 3 3 F [2:0] $end
+$var wire 4 4 Y [3:0] $end
+$var wire 4 5 B [3:0] $end
+$var reg 5 6 salida_alu [4:0] $end
+$var reg 2 7 zero_carry [1:0] $end
+$upscope $end
+$scope module Bus1 $end
+$var wire 1 % enabled $end
+$var wire 4 8 entrada_buffer [3:0] $end
+$var reg 4 9 data_bus [3:0] $end
+$upscope $end
+$scope module Bus2 $end
+$var wire 1 & enabled $end
+$var wire 4 : entrada_buffer [3:0] $end
+$var reg 4 ; data_bus [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bz ;
+bx :
+bz 9
+bx 8
+bx 7
+bx 6
+bz 5
+bx 4
+bx 3
+b0 2
+b0 1
+bx 0
+b0 /
+bz .
+bz -
+bx ,
+bx +
+bx *
+bx )
+1(
+bx '
+0&
+0%
+0$
+bx #
+1"
+bz !
+$end
+#1
+0"
+0(
+#2
+bx /
+bx 1
+bx 2
+bx !
+bx -
+bx ;
+bx .
+bx 5
+bx 9
+1"
+1$
+1&
+1%
+#3
+b1 .
+b1 5
+b1 9
+0"
+b1 '
+b1 *
+b1 8
+#4
+b1 !
+b1 -
+b1 ;
+b0 +
+b0 7
+b1 ,
+b1 0
+b1 4
+b1 :
+b1 6
+1"
+b10 #
+b10 )
+b10 3
+#5
+b101 !
+b101 -
+b101 ;
+b101 ,
+b101 0
+b101 4
+b101 :
+b101 6
+b101 .
+b101 5
+b101 9
+0"
+b101 '
+b101 *
+b101 8
+#6
+b101 /
+b101 1
+b101 2
+1"
+#7
+0"
+b0 #
+b0 )
+b0 3
+#8
+b1010 .
+b1010 5
+b1010 9
+1"
+b1010 '
+b1010 *
+b1010 8
+#9
+b1010 !
+b1010 -
+b1010 ;
+b1010 ,
+b1010 0
+b1010 4
+b1010 :
+b1010 6
+0"
+b10 #
+b10 )
+b10 3
+#10
+b1010 /
+b1010 1
+b1010 2
+1"
+#11
+b100 !
+b100 -
+b100 ;
+b1 +
+b1 7
+b100 ,
+b100 0
+b100 4
+b100 :
+b10100 6
+0"
+b11 #
+b11 )
+b11 3
+#12
+b0 +
+b0 7
+b100 6
+b100 /
+b100 1
+b100 2
+b0 .
+b0 5
+b0 9
+1"
+b0 '
+b0 *
+b0 8
+#13
+b0 !
+b0 -
+b0 ;
+b10 +
+b10 7
+b0 ,
+b0 0
+b0 4
+b0 :
+b0 6
+0"
+b10 #
+b10 )
+b10 3
+#14
+b1 !
+b1 -
+b1 ;
+b0 +
+b0 7
+b1 ,
+b1 0
+b1 4
+b1 :
+b1 6
+b0 /
+b0 1
+b0 2
+b1 .
+b1 5
+b1 9
+1"
+b1 '
+b1 *
+b1 8
+#15
+0"
+#16
+b1000 !
+b1000 -
+b1000 ;
+b1000 ,
+b1000 0
+b1000 4
+b1000 :
+b1000 6
+b1 /
+b1 1
+b1 2
+b1000 .
+b1000 5
+b1000 9
+1"
+b1000 '
+b1000 *
+b1000 8
+#17
+0"
+#18
+b0 !
+b0 -
+b0 ;
+b10 +
+b10 7
+b0 ,
+b0 0
+b0 4
+b0 :
+b1000 /
+b1000 1
+b1000 2
+b0 6
+1"
+b1 #
+b1 )
+b1 3
+#19
+0"
+#20
+b1000 !
+b1000 -
+b1000 ;
+b0 +
+b0 7
+b1000 ,
+b1000 0
+b1000 4
+b1000 :
+b0 /
+b0 1
+b0 2
+b1000 6
+1"
+b10 #
+b10 )
+b10 3
+#21
+b110 !
+b110 -
+b110 ;
+b110 ,
+b110 0
+b110 4
+b110 :
+b110 6
+b110 .
+b110 5
+b110 9
+0"
+b110 '
+b110 *
+b110 8
+#22
+b110 /
+b110 1
+b110 2
+1"
+#23
+b0 !
+b0 -
+b0 ;
+b10 +
+b10 7
+b0 ,
+b0 0
+b0 4
+b0 :
+b0 6
+0"
+b1 #
+b1 )
+b1 3
+#24
+b1110 !
+b1110 -
+b1110 ;
+b1 +
+b1 7
+b1110 ,
+b1110 0
+b1110 4
+b1110 :
+b11110 6
+b0 /
+b0 1
+b0 2
+b10 .
+b10 5
+b10 9
+1"
+b10 '
+b10 *
+b10 8
+#25
+b10 !
+b10 -
+b10 ;
+b0 +
+b0 7
+b10 ,
+b10 0
+b10 4
+b10 :
+b10 6
+0"
+b10 #
+b10 )
+b10 3
+#26
+b11 !
+b11 -
+b11 ;
+b11 ,
+b11 0
+b11 4
+b11 :
+b11 6
+b10 /
+b10 1
+b10 2
+b11 .
+b11 5
+b11 9
+1"
+b11 '
+b11 *
+b11 8
+#27
+0"
+#28
+b1100 !
+b1100 -
+b1100 ;
+b1 +
+b1 7
+b1100 ,
+b1100 0
+b1100 4
+b1100 :
+b11 /
+b11 1
+b11 2
+b11100 6
+1"
+b100 #
+b100 )
+b100 3
+#29
+0"
+#30
+b1111 !
+b1111 -
+b1111 ;
+b1111 ,
+b1111 0
+b1111 4
+b1111 :
+b11111 6
+b1100 /
+b1100 1
+b1100 2
+1"
